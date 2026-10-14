@@ -1,0 +1,34 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local environment
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated data and artifacts
+data/raw/*.csv
+artifacts/
+mlruns/
+mlflow.db
+
+# Logs and test outputs
+logs/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and operating system
+.vscode/
+.DS_Store
+Thumbs.db
